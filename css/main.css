@@ -1,0 +1,20 @@
+/* Tips inspired by a yt video. source: https://www.youtube.com/watch?v=E7QPO8P8nls */
+* {
+    font-family: "Libre Bodoni", serif;
+  }
+
+  /*header and the links*/
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  a {
+    color: black;
+  }
+
+/*homepage image*/
+  .black-dress {
+    width: 20%;
+  }
+  
