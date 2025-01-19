@@ -14,7 +14,16 @@
   }
 
 /*homepage image*/
-  .black-dress {
+  .images {
     width: 20%;
+  }
+
+  /*borders*/
+  h1 {
+    border-top: 2px solid black;
+
+  }
+  footer {
+    border-top: 2px solid black;
   }
   
