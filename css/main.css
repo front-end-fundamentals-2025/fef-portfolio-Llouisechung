@@ -1,29 +1,27 @@
 /* Tips inspired by a yt video. source: https://www.youtube.com/watch?v=E7QPO8P8nls */
 * {
-    font-family: "Libre Bodoni", serif;
-  }
+  font-family: "Libre Bodoni", serif;
+}
 
-  /*header and the links*/
-  ul {
-    padding-left: 0;
-    list-style: none;
-  }
+/*header and the links*/
+ul {
+  padding-left: 0;
+  list-style: none;
+}
 
-  a {
-    color: black;
-  }
+a {
+  color: black;
+}
 
 /*homepage image*/
-  .images {
-    width: 20%;
-  }
+.images {
+  width: 20%;
+}
 
-  /*borders*/
-  h1 {
-    border-top: 2px solid black;
-
-  }
-  footer {
-    border-top: 2px solid black;
-  }
-  
+/*borders*/
+h1 {
+  border-top: 2px solid black;
+}
+footer {
+  border-top: 2px solid black;
+}
