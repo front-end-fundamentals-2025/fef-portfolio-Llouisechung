@@ -1,21 +1,52 @@
 /* Tips inspired by a yt video. source: https://www.youtube.com/watch?v=E7QPO8P8nls */
-* {
+h1,
+p {
   font-family: "Libre Bodoni", serif;
 }
 
+/*background color*/
+body {
+  background-color: #f5f4e0;
+}
+
 /*header and the links*/
+header {
+  display: flex;
+  align-items: center;
+}
+
+/*unordered lists*/
 ul {
+  display: flex;
   padding-left: 0;
   list-style: none;
 }
 
+li {
+  margin-left: 4rem;
+}
+/*text colors*/
 a {
-  color: black;
+  color: #5e1803;
 }
 
-/*homepage image*/
+#heading {
+  color: #5e1803;
+}
+
+h1 {
+  color: #5e1803;
+}
+p {
+  color: #636363;
+}
+
+/*homepage images*/
 .images {
   width: 20%;
+}
+.blackdress {
+  width: 21%;
 }
 
 /*borders*/
@@ -24,4 +55,51 @@ h1 {
 }
 footer {
   border-top: 2px solid black;
+}
+
+/*design page images*/
+
+.ceramicVase {
+  width: 150%;
+}
+.flowerChair {
+  width: 150%;
+}
+.myDesign1 {
+  width: 150%;
+}
+.myDesign2 {
+  width: 200%;
+}
+
+/*mussle page images*/
+.mussle {
+  width: 20%;
+ 
+}
+
+/*making the page responsive*/
+@media screen and (max-width: 520px) {
+  header,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  /*cathegory section*/
+  .category-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
