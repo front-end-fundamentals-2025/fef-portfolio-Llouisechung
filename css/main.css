@@ -102,3 +102,39 @@ footer {
     grid-template-columns: repeat(6, 1fr);
   }
 }
+
+/*Text animation in "my work" page*/
+.myWork-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: lightskyblue;
+  margin-top: 100px;
+  margin-left: 40px;
+  animation-name: slide;
+  animation-duration: 2s;
+  position: relative;
+}
+
+@keyframes slide {
+  0% {
+    transform: rotate(-5deg);
+  }
+  10% {
+    transform: rotate(5deg);
+  }
+  20% {
+    transform: rotate(-5deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  60% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
