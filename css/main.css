@@ -132,7 +132,7 @@ footer {
     transform: translateX(0);
   }
   70% {
-    transform: translateX(300px);
+    transform: translateX(400px);
   }
   100% {
     transform: translateX(0);
