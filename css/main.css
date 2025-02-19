@@ -110,12 +110,13 @@ footer {
   color: lightskyblue;
   margin-top: 100px;
   margin-left: 40px;
-  animation-name: slide;
+  animation-name: rotate;
   animation-duration: 2s;
   position: relative;
 }
 
-@keyframes slide {
+
+@keyframes rotate {
   0% {
     transform: rotate(-5deg);
   }
@@ -128,13 +129,30 @@ footer {
   30% {
     transform: rotate(5deg);
   }
-  60% {
+}
+
+
+.blueceramic-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: lightskyblue;
+  margin-top: 60;
+  margin-left: 40px;
+  animation-name: slide;
+  animation-duration: 2s;
+  position: relative;
+}
+
+
+@keyframes slide {
+  0% {
     transform: translateX(0);
   }
-  70% {
+  30% {
     transform: translateX(400px);
   }
-  100% {
+  50% {
     transform: translateX(0);
   }
 }
+
