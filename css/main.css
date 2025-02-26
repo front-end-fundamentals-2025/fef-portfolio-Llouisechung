@@ -115,7 +115,6 @@ footer {
   position: relative;
 }
 
-
 @keyframes rotate {
   0% {
     transform: rotate(-5deg);
@@ -131,7 +130,6 @@ footer {
   }
 }
 
-
 .blueceramic-text {
   font-size: 40px;
   font-weight: bold;
@@ -142,7 +140,6 @@ footer {
   animation-duration: 2s;
   position: relative;
 }
-
 
 @keyframes slide {
   0% {
@@ -159,6 +156,4 @@ footer {
 button {
   margin-top: 4rem;
   margin-bottom: 2rem;
-
 }
-
